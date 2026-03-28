@@ -11,11 +11,11 @@ Contenerización y Orquestación con Docker y Kubernetes
 
 | Nombre Completo    |
 |---|---|
-| Juana Ospina       | 
-| David Viloria      | 
-| Santiago Rodriguez | 
-| Vanessa Vega       | 
-| Juan José Herrera  | 
+- Juana Ospina
+- David Viloria
+- Santiago Rodriguez
+- Vanessa Vega
+- Juan José Herrera
 
 ---
 
