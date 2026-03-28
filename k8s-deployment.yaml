@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gestion-usuarios-deployment
+  labels:
+    app: gestion-usuarios
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gestion-usuarios
+  template:
+    metadata:
+      labels:
+        app: gestion-usuarios
+    spec:
+      containers:
+      - name: gestion-usuarios-api
+        image: jjhq/gestion-usuarios-api:v1
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: "Development"
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gestion-usuarios-service
+spec:
+  type: NodePort
+  selector:
+    app: gestion-usuarios
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+    nodePort: 30080
