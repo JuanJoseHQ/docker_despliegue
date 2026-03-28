@@ -9,11 +9,13 @@ Contenerización y Orquestación con Docker y Kubernetes
 
 ## Integrantes del Grupo
 
-| Nombre Completo | Identificación |
+| Nombre Completo    |
 |---|---|
-| Nombre Apellido 1 | XXXXXXXXX |
-| Nombre Apellido 2 | XXXXXXXXX |
-| Nombre Apellido 3 | XXXXXXXXX |
+| Juana Ospina       | 
+| David Viloria      | 
+| Santiago Rodriguez | 
+| Vanessa Vega       | 
+| Juan José Herrera  | 
 
 ---
 
