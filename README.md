@@ -21,7 +21,7 @@ Contenerización y Orquestación con Docker y Kubernetes
 
 ## Video de Evidencia
 
-🎬 [Ver video en YouTube](https://youtube.com/watch?v=XXXXXXX)
+🎬 [Ver video en YouTube](https://youtu.be/3zofYC4I6Sc)
 
 ---
 
